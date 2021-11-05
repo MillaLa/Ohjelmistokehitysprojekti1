@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Zen+Kaku+Gothic+Antique&display=swap');
+
 html {
     font-size: 62.5%;
     /* 62,5% * 16px = 10px */
@@ -5,3 +9,56 @@ html {
     /* 1.5rem = 15px */
     /* 0.7rem = 7px */    
 }
+body {
+    background-color: #FAF3EE;
+}
+
+/*Ota yhteyttä formin styling*/
+#contactheader {
+    font-family: 'Satisfy', cursive;
+    font-size: 3em;
+    color: grey
+    
+    
+}
+#contactheader2 {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    
+}
+#contact {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    
+    
+}
+button {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    display: block;
+}
+
+input[type="submit"] {
+   display: block;
+}
+.formpicture {
+    background-image: url(../images/pink-unsplash.jpg);
+    padding: 1em;
+}
+label {
+   display:block;
+}
+input[type=text] {
+   
+}
+element.style {
+    display: block;
+}
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }

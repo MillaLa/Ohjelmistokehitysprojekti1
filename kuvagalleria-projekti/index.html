@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ohjelmistoprojekti 1</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./layout.css">
+</head>
+
+<body>
+    <header>
+        <img class="bannerkuva" src="./images/weddingbanner2.jpg" alt="">
+        <h1>Hääpaikat</h1>
+        <ul class="valikko">
+            <a href="#slideshow1">
+                <li>Suomenlinna</li>
+            </a>
+            <a href="#slideshow2">
+                <li>Kämp Peilisali</li>
+            </a>
+            <a href="#slideshow3">
+                <li>Ravintola Sipuli</li>
+            </a>
+            <a href="#slideshow4">
+                <li>Vartiovene 55</li>
+            </a>
+        </ul>
+    </header>
+
+    <div id="slideshow1" class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./images/suokki1.jpg" style="width:400px">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="suokki2.jpg" style="width:400px">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="suokki3.jpg" style="width:400px">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1,slideshow1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, slideshow1)">&#10095;</a>
+
+        <h2>Suomenlinna, Pirunkirkko</h2>
+        <ul class="details">
+            <li>Henkilömäärä: max 120</li>
+            <li>Soveltuvuus: juhlatilaisuudet, klo 10–01</li>
+            <li>Hinnat vuosina 2020–2021: kesä pe–la 1200 € / talvi ja muut päivät 850 €. Varausmaksun osuus 200€.</li>
+            <li>Tilat: holvattu sali, 2 kabinettia, lämmityskeittiö, wc-tilat, asiakasvarasto</li>
+        </ul>
+        <div class="button">
+            <a href="something" class="button1">Ilmoittaudu esittelyyn!</a>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div id="slideshow2" class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./images/kamp1.jpg" style="width:400px">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./images/kamp2.jpg" style="width:400px">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./images/kamp3.jpg" style="width:400px">
+
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+
+        <h2>Hotel Kämp, Peilisali</h2>
+        <ul class="details">
+            <li>Henkilömäärä: max 100</li>
+            <li>Soveltuvuus: juhlatilaisuudet, klo 08–05</li>
+            <li>Hinnat vuosina 2020–2021: kesä pe–la 1500 € / talvi ja muut päivät 650 €. Varausmaksun osuus 800€.</li>
+            <li>Tilat: holvattu iso sali, 4 kabinettia</li>
+        </ul>
+        <div class="button">
+            <a href="something" class="button1">Ilmoittaudu esittelyyn!</a>
+        </div>
+
+    </div>
+
+    <div id="slideshow3" class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./images/sipuli1.jpg" style="width:400px">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./images/sipuli2.jpg" style="width:400px">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./images/sipuli3.jpg" style="width:400px">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+
+        <h2>Ravintola Sipuli</h2>
+        <ul class="details">
+            <li>Henkilömäärä: max 120</li>
+            <li>Soveltuvuus: juhlatilaisuudet, klo 10–01</li>
+            <li>Hinnat vuosina 2020–2021: kesä pe–la 1200 € / talvi ja muut päivät 850 €. Varausmaksun osuus 200€.</li>
+            <li>Tilat: holvattu sali, 2 kabinettia, lämmityskeittiö, wc-tilat, asiakasvarasto</li>
+        </ul>
+        <div class="button">
+            <a href="something" class="button1">Ilmoittaudu esittelyyn!</a>
+        </div>
+
+    </div>
+    <div id="slideshow4" class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./images/vartiovene1.jpg" style="width:400px">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./images/vartiovene2.jpg" style="width:400px">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./images/vartiovene3.jpg" style="width:400px">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+
+        <h2>Vartiovene 55</h2>
+        <ul class="details">
+            <li>Henkilömäärä: max 120</li>
+            <li>Soveltuvuus: juhlatilaisuudet, klo 10–01</li>
+            <li>Hinnat vuosina 2020–2021: kesä pe–la 1200 € / talvi ja muut päivät 850 €. Varausmaksun osuus 200€.</li>
+            <li>Tilat: holvattu sali, 2 kabinettia, lämmityskeittiö, wc-tilat, asiakasvarasto</li>
+        </ul>
+        <div class="button">
+            <a href="something" class="button1">Ilmoittaudu esittelyyn!</a>
+        </div>
+
+    </div>
+    <footer>
+        <img class="footerkuva" src="./images/weddingbanner.jpg" alt="">
+    </footer>
+
+    <script src="skriptit.js"></script>
+</body>

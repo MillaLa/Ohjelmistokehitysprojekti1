@@ -6,14 +6,25 @@ html {
 body {
     background-color: #FAF3EE;
     font-family: 'Satisfy', cursive;
+    padding: 1rem;
 }
 
 * {
     box-sizing: border-box;
 }
 
-.bannerkuva {
-    opacity: 65%;
+.banner {
+    background: url(./images/weddingbanner2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 70%;
+    position: relative;
+    background-size: cover;
+}
+
+.logo {
+    max-width: 100%;
+    width: 40%
 }
 
 h1 {
@@ -222,6 +233,22 @@ img {}
     }
 }
 
-.footerkuva {
-    opacity: 40%;
+footer {
+    background: url(./images/weddingbanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 70%;
+    position: relative;
+    background-size: cover;
 }
+
+.footertext {
+    text-align: center;
+    font-size: 3rem;
+    color: antiquewhite;
+    padding: 1rem;
+}
+
+ul li {}
+
+.some {}
